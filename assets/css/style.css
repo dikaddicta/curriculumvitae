@@ -1625,93 +1625,25 @@ body {
 .svg-path {
     stroke: var(--text-color);
 }
-/*-----------------------[ 12.Pricing Section CSS ]------------------------*/
-.pricing-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/pricing/pricing-bg.png');
-}
-.unifi {
-    padding: 20px 0 40px;
-    font-size: 18px;
-}
-.basic-plan-main {
+/*-----------------------[ 12.Linkedin Section CSS ]------------------------*/
+.linkedin-icon {
+    width: 36px;
+    height: 36px;
+    background: #000;           /* lingkaran hitam */
+    border-radius: 50%;
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding-bottom: 20px;
+    justify-content: center;
+    transition: 0.3s ease;
 }
-.basic-plan-main h3 {
-    font-family: Bungee;
-    color: var(--text-color);
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 32px;
+
+.linkedin-icon img {
+    width: 16px;
+    filter: brightness(0) invert(1); /* icon jadi putih */
 }
-.month-plan {
-    font-family: Inter;
-    color: var(--theme-color);
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 39px;
-}
-.month-plan sub {
-    font-size: 20px;
-}
-.basic-plan {
-    filter: var(--icons-filter);
-}
-.plan-boxes-miannn {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.plan-boxes-miannn-subb {
-    width: 100%;
-}
-.plan-box {
-    border: 1px solid var(--border-colors);
-    background: var(--primary-color);
-    width: 100%;
-    max-width: 360px;
-}
-.plan-box2 {
-    margin-top: 20px;
-}
-.plan-header {
-    padding: 20px;
-    border-bottom: 1px solid var(--border-colors);
-}
-.plan-body {
-    padding: 20px;
-}
-.plan-body ul li {
-    font-family: Inter;
-    color: var(--text-color);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 30px;
-    padding-bottom: 10px;
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-}
-.plan-body ul .plan-Offercheck::before {
-    content: url(../images/svg/checkSvg.svg);
-    filter: var(--icons-filter);
-}
-.plan-body ul .plan-NotOffercheck::before {
-    content: url(../images/svg/checkSvg2.svg);
-    filter: var(--media-icons);
-}
-.plan-NotOffercheck {
-    color: var(--sub-text) !important;
-}
-.choosplan {
-    width: 100%;
-    max-width: 100% !important;
-    margin-top: 30px;
-}
-.choose-plan-btn {
-    margin-top: 20px;
+.linkedin-icon:hover {
+    background: #0A66C2;  /* warna resmi LinkedIn */
+    transform: scale(1.1);
 }
 /*-----------------------[ 13.Blog Section CSS ]------------------------*/
 .blog-bg {
